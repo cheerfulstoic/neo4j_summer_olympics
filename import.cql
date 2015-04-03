@@ -16,7 +16,7 @@ MATCH (n) OPTIONAL MATCH n-[r]-() DELETE n, r;
 // Country,Int Olympic Committee code,ISO code,Country
 // Afghanistan,AFG,AF,Afghanistan
 
-LOAD CSV WITH HEADERS FROM 'country_codes.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/country_codes.csv' AS line
 CREATE (country:Country {
     name: line.`Country`,
     ioc_code: line.`Int Olympic Committee code`,
@@ -29,30 +29,30 @@ CREATE (country:Country {
 
 
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MERGE (games:Games {year: toInt(line.`Edition`), city: line.`City`});
 
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MERGE (event:Event {name: line.`Event`, gender: line.`Gender`});
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MERGE (sport:Sport {name: line.`Sport`});
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MATCH (sport:Sport {name: line.`Sport`})
 MERGE sport-[:HAS_DISCIPLINE]->(discipline:Discipline {name: line.`Discipline`});
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MATCH (sport:Sport {name: line.`Sport`})-[:HAS_DISCIPLINE]->(discipline:Discipline {name: line.`Discipline`})
 MERGE discipline-[:HAS_EVENT]->(event:Event {name: line.`Event`, gender: line.`Gender`})
 ;
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MERGE (athlete:Athlete {name: line.`Athlete`});
 
 
-LOAD CSV WITH HEADERS FROM 'medals.csv' AS line
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/cheerfulstoic/neo4j_summer_olympics/master/medals.csv' AS line
 MATCH (games:Games {year: toInt(line.`Edition`), city: line.`City`})
 MATCH (sport:Sport {name: line.`Sport`})-[:HAS_DISCIPLINE]->(discipline:Discipline {name: line.`Discipline`})-[:HAS_EVENT]->(event:Event {name: line.`Event`, gender: line.`Gender`})
 MATCH (athlete:Athlete {name: line.`Athlete`})
