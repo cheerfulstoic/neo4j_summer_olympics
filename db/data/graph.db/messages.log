@@ -1,0 +1,1167 @@
+2015-04-02 16:27:41.578+0000 WARN  [o.n.k.i.JvmChecker]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-02 16:27:41.651+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on 120000
+2015-04-02 16:27:41.772+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-02 16:27:42.055+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-04-02 16:27:42.156+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-04-02 16:27:42.157+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-04-02 16:27:42.159+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-04-02 16:27:42.160+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-04-02 16:27:42.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-04-02 16:27:42.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-04-02 16:27:42.161+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-04-02 16:27:42.164+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2015-04-02 16:27:42.165+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 328.43 MB
+2015-04-02 16:27:42.165+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 5.75 GB
+2015-04-02 16:27:42.166+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2015-04-02 16:27:42.166+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.12 GB
+2015-04-02 16:27:42.166+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-04-02 16:27:42.167+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 78.32 MB
+2015-04-02 16:27:42.167+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 127.88 MB
+2015-04-02 16:27:42.167+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
+2015-04-02 16:27:42.174+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2015-04-02 16:27:42.177+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen]
+2015-04-02 16:27:42.179+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.31 MB, used=3.27 MB, max=240.00 MB, threshold=0.00 B
+2015-04-02 16:27:42.181+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Metaspace (Non-heap memory): committed=12.50 MB, used=12.25 MB, max=-1.00 B, threshold=0.00 B
+2015-04-02 16:27:42.182+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Compressed Class Space (Non-heap memory): committed=1.75 MB, used=1.64 MB, max=1.00 GB, threshold=0.00 B
+2015-04-02 16:27:42.182+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=1.00 MB, used=37.51 kB, max=266.25 MB, threshold=?
+2015-04-02 16:27:42.183+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=128.00 kB, used=127.92 kB, max=33.25 MB, threshold=?
+2015-04-02 16:27:42.183+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=126.75 MB, used=48.54 MB, max=1.68 GB, threshold=0.00 B
+2015-04-02 16:27:42.183+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-04-02 16:27:42.185+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.10.2; arch: x86_64; cpus: 4
+2015-04-02 16:27:42.185+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2015-04-02 16:27:42.186+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 88
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 33194@Brians-MacBook-Air.local
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Stockholm
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-04-02 16:27:42.187+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 25.11-b03
+2015-04-02 16:27:42.188+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2015-04-02 16:27:42.189+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -XX:-OmitStackTraceInFastThrow, -XX:hashCode=5, -Dneo4j.ext.udc.source=tarball, -Dneo4j.home=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dneo4j.instance=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dfile.encoding=UTF-8]
+2015-04-02 16:27:42.189+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-jaxrs-1.9.13.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-1.9-2.0.4.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/bcprov-jdk16-140.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-jmx-2.2.0.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-2.2.0.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rhino-1.7R4.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/resources.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/charsets.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/scala-library-2.10.4.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-servlet-9.2.4.v20141103.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-lang-2.6.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-http-9.2.4.v20141103.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/rt.jar
+2015-04-02 16:27:42.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/server-api-2.2.0.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-io-9.2.4.v20141103.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-scala_2.10-1.1.6.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/slf4j-api-1.7.7.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-beanutils-1.8.3.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-udc-2.2.0.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-multipart-1.18.1.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-browser-2.2.0.jar
+2015-04-02 16:27:42.194+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jce.jar
+2015-04-02 16:27:42.195+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2015-04-02 16:27:42.195+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+2015-04-02 16:27:42.195+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+2015-04-02 16:27:42.195+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-lucene-index-2.2.0.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-shell-2.2.0.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-logging-1.1.1.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-xml-9.2.4.v20141103.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/classes
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-access-1.1.2.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-io-2.2.0.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.2-2.2.0.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-csv-2.2.0.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/lucene-core-3.6.2.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jfr.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jsr311-api-1.1.2.r612.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/scala-reflect-2.10.4.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/concurrentlinkedhashmap-lru-1.4.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/janino-2.6.1.jar
+2015-04-02 16:27:42.196+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-import-tool-2.2.0.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-core-1.1.2.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-webapp-9.2.4.v20141103.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-core-1.1.6.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-server-1.18.1.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-digester-2.1.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-consistency-check-2.2.0.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-primitive-collections-2.2.0.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-compiler-2.6.1.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-server-9.2.4.v20141103.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rrd4j-2.2.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-core-asl-1.9.13.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/conf/
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-io-2.4.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-core-1.18.1.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2015-04-02 16:27:42.197+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-util-9.2.4.v20141103.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-security-9.2.4.v20141103.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.0-2.0.4.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-matching-2.2.0.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-kernel-2.2.0.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jcl-over-slf4j-1.7.7.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-classic-1.1.2.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jsse.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/mimepull-1.9.3.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/opencsv-2.3.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-servlet-1.18.1.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-configuration-1.10.jar
+2015-04-02 16:27:42.198+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-mapper-asl-1.9.13.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.1-2.1.6.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0-static-web.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/javax.servlet-api-3.1.0.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-algo-2.2.0.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/Library/Java/Extensions
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:27:42.199+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = tarball
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/brian
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Stockholm
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = brian
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2015-04-02 16:27:42.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2015-04-02 16:27:42.201+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-04-02 16:27:42.204+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface awdl0:
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:6c2e:f0ff:fe57:69bf%awdl0
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface tun0:
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.187.1.6
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.68
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%lo0
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-04-02 16:27:42.205+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-04-02 16:27:42.443+0000 INFO  [o.n.k.i.s.StoreFactory]: Creating new db @ /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore
+2015-04-02 16:27:42.769+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-04-02 16:27:42.813+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: No lucene scan store index found, this might just be first use. Preparing to rebuild.
+2015-04-02 16:27:42.895+0000 INFO  [o.n.k.NeoStoreDataSource]: Opened logical log [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2015-04-02 16:27:42.900+0000 WARN  [o.n.k.i.s.StoreFactory]: Missing counts store, rebuilding it.
+2015-04-02 16:27:42.994+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Rebuilding lucene scan store, this may take a while
+2015-04-02 16:27:42.995+0000 INFO  [o.n.k.a.i.i.LuceneLabelScanStore]: Lucene scan store rebuilt (roughly -1 nodes)
+2015-04-02 16:27:43.932+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-04-02 16:27:43.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427992062443, randomId=9156017451299455050, storeVersion=14969031248344582, upgradeTime=1427992062443, upgradeId=1}
+2015-04-02 16:27:43.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0
+2015-04-02 16:27:43.933+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Consistency Checker (neo4j-consistency-check), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.2 (neo4j-cypher-compiler-2.2), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Import Command Line Tool (neo4j-import-tool), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server API (server-api), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server (neo4j-server), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:27:43.942+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.5
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.5
+2015-04-02 16:27:43.944+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.5
+2015-04-02 16:27:43.945+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.5
+2015-04-02 16:27:43.945+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.5
+2015-04-02 16:27:43.945+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.5
+2015-04-02 16:27:43.945+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.5
+2015-04-02 16:27:43.945+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.5
+2015-04-02 16:27:43.946+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.5
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.5
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore v0.A.5
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=1 high=0
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=0 high=-1
+2015-04-02 16:27:43.947+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=0 high=-1
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=0 high=-1
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=0 high=-1
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=0 high=-1
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=0 high=-1
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=1 high=0
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore: used=1 high=0
+2015-04-02 16:27:43.948+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-04-02 16:27:43.949+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-04-02 16:27:43.949+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 249804886016 / 18912342016 / 7
+Storage files: (filename : modification date - size)
+2015-04-02 16:27:43.950+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2015-04-02 16:27:43.951+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.951+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.951+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2015-04-02T18:27:43+0200 - 35.44 kB
+2015-04-02 16:27:43.951+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2015-04-02T18:27:42+0200 - 99.00 B
+2015-04-02 16:27:43.951+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.counts.db.a: 2015-04-02T18:27:42+0200 - 114.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2015-04-02T18:27:42+0200 - 38.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.952+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2015-04-02T18:27:42+0200 - 68.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2015-04-02T18:27:42+0200 - 128.00 B
+2015-04-02 16:27:43.953+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.954+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.954+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.954+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.955+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2015-04-02T18:27:42+0200 - 38.00 B
+2015-04-02 16:27:43.955+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.955+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2015-04-02T18:27:42+0200 - 128.00 B
+2015-04-02 16:27:43.955+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.956+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db: 2015-04-02T18:27:42+0200 - 25.00 B
+2015-04-02 16:27:43.956+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.956+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.956+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.957+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.957+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.957+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2015-04-02T18:27:42+0200 - 38.00 B
+2015-04-02 16:27:43.957+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.958+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2015-04-02T18:27:42+0200 - 64.00 B
+2015-04-02 16:27:43.958+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2015-04-02T18:27:42+0200 - 9.00 B
+2015-04-02 16:27:43.958+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.0: 2015-04-02T18:27:42+0200 - 16.00 B
+2015-04-02 16:27:43.958+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2015-04-02 16:27:43.958+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2015-04-02 16:27:43.959+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2015-04-02 16:27:43.959+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.959+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.959+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-04-02T18:27:43+0200 - 0.00 B
+2015-04-02 16:27:43.960+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.960+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:27:43.960+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-04-02 16:27:44.012+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2015-04-02 16:27:44.012+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully started database
+2015-04-02 16:27:44.021+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2015-04-02 16:27:44.244+0000 INFO  [o.n.s.CommunityNeoServer]: Starting HTTP on port :1896 with 4 threads available
+2015-04-02 16:27:44.567+0000 INFO  [o.n.s.CommunityNeoServer]: Enabling HTTPS on port :1895
+2015-04-02 16:27:44.909+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/webadmin] from [webadmin-html]
+2015-04-02 16:27:44.996+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/browser] from [browser]
+2015-04-02 16:27:46.542+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:1896/
+2015-04-02 16:27:46.542+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:1896/]
+2015-04-02 16:27:46.542+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2015-04-02 16:27:52.050+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Country(ioc_code) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:27:52.072+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:27:52.082+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Country(ioc_code) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:27:52.113+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:27:52.138+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Country(iso_code) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:27:52.145+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:27:52.147+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Country(iso_code) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:27:52.164+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:27:52.202+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:City(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:27:52.208+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:27:52.211+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:City(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:28:03.003+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:28:12.999+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:30:22.999+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:30:32.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:39:44.589+0000 INFO  [o.n.s.CommunityBootstrapper]: Neo4j Server shutdown initiated by request
+2015-04-02 16:39:44.635+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown Neo4j Server.
+2015-04-02 16:39:44.635+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2015-04-02 16:39:44.637+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2015-04-02 16:39:54.672+0000 INFO  [o.n.k.i.s.StoreFactory]: About to rotate counts store at transaction 34 to [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.b], from [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.a].
+2015-04-02 16:39:54.676+0000 INFO  [o.n.k.i.s.StoreFactory]: Successfully rotated counts store at transaction 34 to [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.b], from [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.a].
+2015-04-02 16:39:54.749+0000 INFO  [o.n.k.NeoStoreDataSource]: NeoStore closed
+2015-04-02 16:39:54.749+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-04-02 16:39:54.749+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-04-02 16:39:54.756+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully stopped database
+2015-04-02 16:39:54.757+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown database.
+2015-04-02 16:39:56.752+0000 WARN  [o.n.k.i.JvmChecker]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-02 16:39:56.799+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on 120000
+2015-04-02 16:39:56.888+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-02 16:39:57.222+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-04-02 16:39:57.298+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-04-02 16:39:57.300+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-04-02 16:39:57.301+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2015-04-02 16:39:57.302+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db
+2015-04-02 16:39:57.302+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-04-02 16:39:57.302+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-04-02 16:39:57.302+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-04-02 16:39:57.303+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-04-02 16:39:57.305+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2015-04-02 16:39:57.306+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 155.09 MB
+2015-04-02 16:39:57.307+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 5.75 GB
+2015-04-02 16:39:57.307+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 4.00 GB
+2015-04-02 16:39:57.308+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 1.18 GB
+2015-04-02 16:39:57.309+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-04-02 16:39:57.310+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 79.16 MB
+2015-04-02 16:39:57.310+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 127.88 MB
+2015-04-02 16:39:57.311+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
+2015-04-02 16:39:57.313+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2015-04-02 16:39:57.313+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen]
+2015-04-02 16:39:57.315+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.38 MB, used=3.31 MB, max=240.00 MB, threshold=0.00 B
+2015-04-02 16:39:57.316+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Metaspace (Non-heap memory): committed=12.75 MB, used=12.38 MB, max=-1.00 B, threshold=0.00 B
+2015-04-02 16:39:57.316+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Compressed Class Space (Non-heap memory): committed=1.75 MB, used=1.65 MB, max=1.00 GB, threshold=0.00 B
+2015-04-02 16:39:57.316+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=1.00 MB, used=150.89 kB, max=266.25 MB, threshold=?
+2015-04-02 16:39:57.317+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=128.00 kB, used=127.95 kB, max=33.25 MB, threshold=?
+2015-04-02 16:39:57.318+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=126.75 MB, used=48.52 MB, max=1.68 GB, threshold=0.00 B
+2015-04-02 16:39:57.318+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-04-02 16:39:57.319+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.10.2; arch: x86_64; cpus: 4
+2015-04-02 16:39:57.320+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2015-04-02 16:39:57.320+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 89
+2015-04-02 16:39:57.320+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 33918@Brians-MacBook-Air.local
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Stockholm
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 25.11-b03
+2015-04-02 16:39:57.321+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2015-04-02 16:39:57.322+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -XX:-OmitStackTraceInFastThrow, -XX:hashCode=5, -Dneo4j.ext.udc.source=tarball, -Dneo4j.home=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dneo4j.instance=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dfile.encoding=UTF-8]
+2015-04-02 16:39:57.323+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-jaxrs-1.9.13.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-1.9-2.0.4.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/bcprov-jdk16-140.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-jmx-2.2.0.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-2.2.0.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rhino-1.7R4.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/resources.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/charsets.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/scala-library-2.10.4.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-servlet-9.2.4.v20141103.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-lang-2.6.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-http-9.2.4.v20141103.jar
+2015-04-02 16:39:57.325+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/rt.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/server-api-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-io-9.2.4.v20141103.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-scala_2.10-1.1.6.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/slf4j-api-1.7.7.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-beanutils-1.8.3.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-udc-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-multipart-1.18.1.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-browser-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jce.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-lucene-index-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-shell-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-logging-1.1.1.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-xml-9.2.4.v20141103.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/classes
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-access-1.1.2.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-io-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.2-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-csv-2.2.0.jar
+2015-04-02 16:39:57.326+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/lucene-core-3.6.2.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jfr.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jsr311-api-1.1.2.r612.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/scala-reflect-2.10.4.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/concurrentlinkedhashmap-lru-1.4.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/janino-2.6.1.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-import-tool-2.2.0.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-core-1.1.2.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-webapp-9.2.4.v20141103.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-core-1.1.6.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-server-1.18.1.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-digester-2.1.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-consistency-check-2.2.0.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-primitive-collections-2.2.0.jar
+2015-04-02 16:39:57.327+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-compiler-2.6.1.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-server-9.2.4.v20141103.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rrd4j-2.2.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-core-asl-1.9.13.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/conf/
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-io-2.4.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-core-1.18.1.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-util-9.2.4.v20141103.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-security-9.2.4.v20141103.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.0-2.0.4.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-matching-2.2.0.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-kernel-2.2.0.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2015-04-02 16:39:57.328+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jcl-over-slf4j-1.7.7.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-classic-1.1.2.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jsse.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/mimepull-1.9.3.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/opencsv-2.3.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-servlet-1.18.1.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-configuration-1.10.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-mapper-asl-1.9.13.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.1-2.1.6.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0-static-web.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/javax.servlet-api-3.1.0.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-algo-2.2.0.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/Library/Java/Extensions
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2015-04-02 16:39:57.329+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2015-04-02 16:39:57.330+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = tarball
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/brian
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Stockholm
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = brian
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2015-04-02 16:39:57.331+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-04-02 16:39:57.334+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface awdl0:
+2015-04-02 16:39:57.334+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:6c2e:f0ff:fe57:69bf%awdl0
+2015-04-02 16:39:57.334+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface tun0:
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 10.187.1.6
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.68
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%lo0
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-04-02 16:39:57.335+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-04-02 16:39:57.784+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 1 on :label[0](property[0]) is ONLINE
+2015-04-02 16:39:57.872+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 3 on :label[0](property[1]) is ONLINE
+2015-04-02 16:39:57.915+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 5 on :label[1](property[2]) is ONLINE
+2015-04-02 16:39:57.958+0000 INFO  [o.n.k.NeoStoreDataSource]: Opened logical log [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.transaction.db.1] version=1, lastTxId=34 (clean)
+2015-04-02 16:39:57.971+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 1 on :Country(ioc_code) is ONLINE
+2015-04-02 16:39:57.971+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 3 on :Country(iso_code) is ONLINE
+2015-04-02 16:39:57.972+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 5 on :City(name) is ONLINE
+2015-04-02 16:39:57.977+0000 WARN  [o.n.k.i.a.i.s.IndexSamplingController]: Recovering index sampling for index :City(name)
+2015-04-02 16:39:57.987+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :City(name) with 0 unique values in sample of avg size 0 taken from index containing 0 entries
+2015-04-02 16:39:58.719+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-04-02 16:39:58.719+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427992062443, randomId=9156017451299455050, storeVersion=14969031248344582, upgradeTime=1427992062443, upgradeId=1}
+2015-04-02 16:39:58.719+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0
+2015-04-02 16:39:58.719+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Consistency Checker (neo4j-consistency-check), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.2 (neo4j-cypher-compiler-2.2), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Import Command Line Tool (neo4j-import-tool), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server API (server-api), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.727+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server (neo4j-server), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-02 16:39:58.729+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-04-02 16:39:58.732+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore v0.A.5
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-02 16:39:58.733+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=6 high=5
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=13286 high=13285
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=1624 high=1623
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=2 high=1
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=7 high=6
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=1208 high=1207
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=6 high=5
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=34 high=33
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore: used=13 high=12
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-04-02 16:39:58.734+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-04-02 16:39:58.735+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 249804886016 / 18912538624 / 7
+Storage files: (filename : modification date - size)
+2015-04-02 16:39:58.736+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2015-04-02 16:39:58.736+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:39:58.736+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2015-04-02T18:39:57+0200 - 0.00 B
+2015-04-02 16:39:58.736+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2015-04-02T18:39:58+0200 - 81.07 kB
+2015-04-02 16:39:58.737+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2015-04-02T18:39:57+0200 - 99.00 B
+2015-04-02 16:39:58.737+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.counts.db.a: 2015-04-02T18:27:42+0200 - 114.00 B
+2015-04-02 16:39:58.737+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.counts.db.b: 2015-04-02T18:39:54+0200 - 786.00 B
+2015-04-02 16:39:58.737+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.738+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2015-04-02T18:39:57+0200 - 35.00 B
+2015-04-02 16:39:58.738+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.738+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2015-04-02T18:39:57+0200 - 304.00 B
+2015-04-02 16:39:58.738+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.739+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2015-04-02T18:39:57+0200 - 194.62 kB
+2015-04-02 16:39:58.739+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2015-04-02T18:39:57+0200 - 7.81 kB
+2015-04-02 16:39:58.739+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2015-04-02T18:39:57+0200 - 68.00 B
+2015-04-02 16:39:58.739+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.740+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2015-04-02T18:39:57+0200 - 48.37 kB
+2015-04-02 16:39:58.740+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2015-04-02T18:39:57+0200 - 128.00 B
+2015-04-02 16:39:58.740+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.740+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.740+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2015-04-02T18:39:57+0200 - 54.00 B
+2015-04-02 16:39:58.741+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.741+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2015-04-02T18:39:57+0200 - 266.00 B
+2015-04-02 16:39:58.742+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.742+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2015-04-02T18:39:57+0200 - 4.25 kB
+2015-04-02 16:39:58.742+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.742+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db: 2015-04-02T18:39:57+0200 - 325.00 B
+2015-04-02 16:39:58.743+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.743+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2015-04-02T18:39:57+0200 - 53.92 kB
+2015-04-02 16:39:58.743+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2015-04-02T18:39:57+0200 - 6.35 kB
+2015-04-02 16:39:58.744+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2015-04-02T18:39:57+0200 - 10.00 B
+2015-04-02 16:39:58.744+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.744+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2015-04-02T18:39:57+0200 - 114.00 B
+2015-04-02 16:39:58.745+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.745+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2015-04-02T18:39:57+0200 - 384.00 B
+2015-04-02 16:39:58.745+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2015-04-02T18:39:57+0200 - 9.00 B
+2015-04-02 16:39:58.746+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.0: 2015-04-02T18:35:07+0200 - 634.34 kB
+2015-04-02 16:39:58.746+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.1: 2015-04-02T18:39:57+0200 - 16.00 B
+2015-04-02 16:39:58.746+0000 INFO  [o.n.k.i.DiagnosticsManager]:   rrd: 2015-04-02T18:39:44+0200 - 1.93 MB
+2015-04-02 16:39:58.746+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2015-04-02 16:39:58.746+0000 INFO  [o.n.k.i.DiagnosticsManager]:     index:
+2015-04-02 16:39:58.747+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2015-04-02 16:39:58.747+0000 INFO  [o.n.k.i.DiagnosticsManager]:         1:
+2015-04-02 16:39:58.748+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.cfs: 2015-04-02T18:30:19+0200 - 7.05 kB
+2015-04-02 16:39:58.748+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-02 16:39:58.748+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-02T18:39:54+0200 - 20.00 B
+2015-04-02 16:39:58.749+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-02T18:39:54+0200 - 258.00 B
+2015-04-02 16:39:58.749+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-02T18:39:57+0200 - 0.00 B
+2015-04-02 16:39:58.750+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-02T18:39:57+0200 - 23.32 kB
+2015-04-02 16:39:58.750+0000 INFO  [o.n.k.i.DiagnosticsManager]:         3:
+2015-04-02 16:39:58.750+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _1.cfs: 2015-04-02T18:30:19+0200 - 6.90 kB
+2015-04-02 16:39:58.750+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-02 16:39:58.751+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-02T18:39:54+0200 - 20.00 B
+2015-04-02 16:39:58.751+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-02T18:39:54+0200 - 258.00 B
+2015-04-02 16:39:58.751+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-02T18:39:57+0200 - 0.00 B
+2015-04-02 16:39:58.752+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-02T18:39:57+0200 - 23.17 kB
+2015-04-02 16:39:58.752+0000 INFO  [o.n.k.i.DiagnosticsManager]:         5:
+2015-04-02 16:39:58.753+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-02 16:39:58.754+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-02T18:27:52+0200 - 20.00 B
+2015-04-02 16:39:58.755+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_1: 2015-04-02T18:27:52+0200 - 46.00 B
+2015-04-02 16:39:58.755+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-02T18:39:57+0200 - 0.00 B
+2015-04-02 16:39:58.755+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-02T18:39:57+0200 - 16.06 kB
+2015-04-02 16:39:58.755+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-04-02T18:27:52+0200 - 62.56 kB
+2015-04-02 16:39:58.755+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-04-02T18:27:52+0200 - 62.56 kB
+2015-04-02 16:39:58.756+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2015-04-02 16:39:58.756+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2015-04-02 16:39:58.756+0000 INFO  [o.n.k.i.DiagnosticsManager]:         _h.cfs: 2015-04-02T18:31:19+0200 - 1.17 kB
+2015-04-02 16:39:58.756+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments.gen: 2015-04-02T18:39:54+0200 - 20.00 B
+2015-04-02 16:39:58.756+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments_1: 2015-04-02T18:39:54+0200 - 281.00 B
+2015-04-02 16:39:58.757+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2015-04-02T18:39:57+0200 - 0.00 B
+2015-04-02 16:39:58.757+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-04-02T18:39:57+0200 - 1.47 kB
+2015-04-02 16:39:58.757+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-04-02T18:27:43+0200 - 1.47 kB
+2015-04-02 16:39:58.758+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:52+0200 - 64.03 kB
+2015-04-02 16:39:58.758+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-02 16:39:58.758+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-04-02 16:39:58.816+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2015-04-02 16:39:58.816+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully started database
+2015-04-02 16:39:58.829+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2015-04-02 16:39:58.926+0000 INFO  [o.n.s.CommunityNeoServer]: Starting HTTP on port :1896 with 4 threads available
+2015-04-02 16:39:59.225+0000 INFO  [o.n.s.CommunityNeoServer]: Enabling HTTPS on port :1895
+2015-04-02 16:39:59.491+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/webadmin] from [webadmin-html]
+2015-04-02 16:39:59.577+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/browser] from [browser]
+2015-04-02 16:40:01.195+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:1896/
+2015-04-02 16:40:01.199+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:1896/]
+2015-04-02 16:40:01.200+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2015-04-02 16:41:38.934+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Games(year) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.053+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.057+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Games(year) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.066+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.083+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Sport(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.124+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.128+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Sport(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.135+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.147+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Discipline(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.185+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.187+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Discipline(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.195+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.217+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Event(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.237+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population started: [:Athlete(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.262+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.264+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Athlete(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:39.271+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.326+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore]: Schema state store has been cleared.
+2015-04-02 16:41:39.333+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob]: Index population completed. Index is now online: [:Event(name) [provider: {key=lucene, version=1.0}]]
+2015-04-02 16:41:48.001+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:41:57.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:42:07.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:42:17.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 16:42:27.991+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Sport(name) with 42 unique values in sample of avg size 42 taken from index containing 42 entries
+2015-04-02 16:42:37.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Event(name) with 577 unique values in sample of avg size 577 taken from index containing 577 entries
+2015-04-02 16:42:47.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 21413 unique values in sample of avg size 21413 taken from index containing 21413 entries
+2015-04-02 16:45:27.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:45:37.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:45:47.989+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:45:57.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 21413 unique values in sample of avg size 21413 taken from index containing 21413 entries
+2015-04-02 16:46:07.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 16:46:17.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Sport(name) with 42 unique values in sample of avg size 42 taken from index containing 42 entries
+2015-04-02 16:46:27.996+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Event(name) with 577 unique values in sample of avg size 577 taken from index containing 577 entries
+2015-04-02 16:46:37.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:46:47.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:46:57.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:47:04.173+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,false),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(  UNNAMED15)),List(),None,false))))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Parameter(  AUTOINT0))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2015-04-02 16:47:04.173+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,false),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(  UNNAMED15)),List(),None,false))))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Parameter(  AUTOINT0))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2015-04-02 16:47:04.174+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,false),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(  UNNAMED15)),List(),None,false))))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Parameter(  AUTOINT0))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2015-04-02 16:47:04.174+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(NodePattern(Some(Identifier(a)),List(),None,false),RelationshipPattern(Some(Identifier(r)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(  UNNAMED15)),List(),None,false))))),List(),Some(Where(Equals(FunctionInvocation(FunctionName(id),false,Vector(Identifier(a))),Parameter(  AUTOINT0))))), Return(false,ReturnItems(false,List(AliasedReturnItem(Identifier(r),Identifier(r)))),None,None,None))))
+2015-04-02 16:47:07.997+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 21413 unique values in sample of avg size 21413 taken from index containing 21413 entries
+2015-04-02 16:47:17.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 16:47:27.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Sport(name) with 42 unique values in sample of avg size 42 taken from index containing 42 entries
+2015-04-02 16:49:36.087+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 237ms.
+2015-04-02 16:49:37.991+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 0 unique values in sample of avg size 0 taken from index containing 0 entries
+2015-04-02 16:49:47.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:49:57.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:50:07.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 21413 unique values in sample of avg size 21413 taken from index containing 21413 entries
+2015-04-02 16:50:17.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 16:50:27.991+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Sport(name) with 42 unique values in sample of avg size 42 taken from index containing 42 entries
+2015-04-02 16:50:37.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Event(name) with 577 unique values in sample of avg size 577 taken from index containing 577 entries
+2015-04-02 16:50:47.989+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:53:57.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:54:07.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:54:17.989+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:54:27.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 0 unique values in sample of avg size 0 taken from index containing 0 entries
+2015-04-02 16:54:37.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 0 unique values in sample of avg size 0 taken from index containing 0 entries
+2015-04-02 16:54:47.990+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Sport(name) with 42 unique values in sample of avg size 42 taken from index containing 42 entries
+2015-04-02 16:54:49.413+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: CYPHER 2.2 PLANNER CONSERVATIVE MATCH (athlete:Athlete {name: 'FLACK, Edwin'})--(medal:Medal)--(event:Event)--(discipline:Discipline)--(sport:Sport) RETURN *
+2015-04-02 16:54:49.415+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:54:49.416+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:54:49.417+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:54:49.417+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:54:57.999+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Event(name) with 577 unique values in sample of avg size 577 taken from index containing 577 entries
+2015-04-02 16:55:07.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(ioc_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:55:17.993+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Country(iso_code) with 201 unique values in sample of avg size 201 taken from index containing 201 entries
+2015-04-02 16:55:18.297+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: CYPHER 2.2 PLANNER CONSERVATIVE MATCH (athlete:Athlete {name: 'FLACK, Edwin'})--(medal:Medal)--(event:Event)--(discipline:Discipline)--(sport:Sport) RETURN *
+2015-04-02 16:55:18.300+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:55:18.301+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:55:18.302+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:55:18.302+0000 INFO  [o.n.k.i.q.QueryExecutionEngine]: Discarded stale query from the query cache: Query(None,SingleQuery(List(Match(false,Pattern(List(EveryPath(RelationshipChain(RelationshipChain(RelationshipChain(RelationshipChain(NodePattern(Some(Identifier(athlete)),List(),None,false),RelationshipPattern(Some(Identifier(  UNNAMED47)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(medal)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED62)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(event)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED77)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(discipline)),List(),None,false)),RelationshipPattern(Some(Identifier(  UNNAMED102)),false,List(),None,None,BOTH),NodePattern(Some(Identifier(sport)),List(),None,false))))),List(),Some(Where(And(And(And(And(And(And(Equals(Property(Identifier(athlete),PropertyKeyName(name)),Parameter(  AUTOSTRING0)),HasLabels(Identifier(athlete),List(LabelName(Athlete)))),HasLabels(Identifier(medal),List(LabelName(Medal)))),HasLabels(Identifier(event),List(LabelName(Event)))),HasLabels(Identifier(discipline),List(LabelName(Discipline)))),HasLabels(Identifier(sport),List(LabelName(Sport)))),And(And(And(And(And(Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED77))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED62)))),Not(Equals(Identifier(  UNNAMED102),Identifier(  UNNAMED47)))),Not(Equals(Identifier(  UNNAMED62),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED77)))),Not(Equals(Identifier(  UNNAMED47),Identifier(  UNNAMED62)))))))), Return(false,ReturnItems(false,Vector(AliasedReturnItem(Identifier(athlete),Identifier(athlete)), AliasedReturnItem(Identifier(discipline),Identifier(discipline)), AliasedReturnItem(Identifier(event),Identifier(event)), AliasedReturnItem(Identifier(medal),Identifier(medal)), AliasedReturnItem(Identifier(sport),Identifier(sport)))),None,None,None))))
+2015-04-02 16:55:27.994+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Games(year) with 26 unique values in sample of avg size 26 taken from index containing 26 entries
+2015-04-02 16:55:37.998+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Athlete(name) with 21413 unique values in sample of avg size 21413 taken from index containing 21413 entries
+2015-04-02 17:55:41.083+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 3593235ms.
+2015-04-02 17:55:41.225+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 17:55:47.992+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :Discipline(name) with 56 unique values in sample of avg size 56 taken from index containing 56 entries
+2015-04-02 18:39:11.105+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 2537052ms.
+2015-04-02 20:27:13.089+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 2141548ms.
+2015-04-02 22:51:31.016+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 8626801ms.
+2015-04-03 07:18:58.709+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 30435512ms.
+2015-04-03 07:19:00.048+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 609ms.
+2015-04-03 07:50:11.108+0000 INFO  [o.n.s.CommunityBootstrapper]: Neo4j Server shutdown initiated by request
+2015-04-03 07:50:11.168+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown Neo4j Server.
+2015-04-03 07:50:11.168+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Shutdown started
+2015-04-03 07:50:11.170+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now unavailable
+2015-04-03 07:50:11.205+0000 INFO  [o.n.k.i.s.StoreFactory]: About to rotate counts store at transaction 109 to [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.a], from [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.b].
+2015-04-03 07:50:11.212+0000 INFO  [o.n.k.i.s.StoreFactory]: Successfully rotated counts store at transaction 109 to [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.a], from [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.counts.db.b].
+2015-04-03 07:50:11.359+0000 INFO  [o.n.k.NeoStoreDataSource]: NeoStore closed
+2015-04-03 07:50:11.360+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-04-03 07:50:11.360+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-04-03 07:50:11.371+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully stopped database
+2015-04-03 07:50:11.371+0000 INFO  [o.n.s.CommunityNeoServer]: Successfully shutdown database.
+2015-04-03 07:50:16.822+0000 WARN  [o.n.k.i.JvmChecker]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-03 07:50:16.903+0000 INFO  [o.n.s.CommunityNeoServer]: Setting startup timeout to: 120000ms based on 120000
+2015-04-03 07:50:17.051+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7 or OpenJDK(TM) 7.
+2015-04-03 07:50:17.317+0000 INFO  [o.n.k.InternalAbstractGraphDatabase]: No locking implementation specified, defaulting to 'community'
+2015-04-03 07:50:17.432+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-04-03 07:50:17.434+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-04-03 07:50:17.438+0000 INFO  [o.n.k.i.DiagnosticsManager]: remote_shell_enabled=true
+2015-04-03 07:50:17.438+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db
+2015-04-03 07:50:17.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-04-03 07:50:17.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-04-03 07:50:17.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-04-03 07:50:17.440+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-04-03 07:50:17.441+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-04-03 07:50:17.449+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 8.00 GB
+2015-04-03 07:50:17.450+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 673.40 MB
+2015-04-03 07:50:17.450+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 5.75 GB
+2015-04-03 07:50:17.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 3.00 GB
+2015-04-03 07:50:17.451+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 855.50 MB
+2015-04-03 07:50:17.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-04-03 07:50:17.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 78.30 MB
+2015-04-03 07:50:17.452+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 127.88 MB
+2015-04-03 07:50:17.454+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 1.97 GB
+2015-04-03 07:50:17.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ParNew: [Par Eden Space, Par Survivor Space]
+2015-04-03 07:50:17.462+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: ConcurrentMarkSweep: [Par Eden Space, Par Survivor Space, CMS Old Gen]
+2015-04-03 07:50:17.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=3.31 MB, used=3.29 MB, max=240.00 MB, threshold=0.00 B
+2015-04-03 07:50:17.464+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Metaspace (Non-heap memory): committed=12.75 MB, used=12.39 MB, max=-1.00 B, threshold=0.00 B
+2015-04-03 07:50:17.466+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Compressed Class Space (Non-heap memory): committed=1.75 MB, used=1.66 MB, max=1.00 GB, threshold=0.00 B
+2015-04-03 07:50:17.466+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Eden Space (Heap memory): committed=1.00 MB, used=18.61 kB, max=266.25 MB, threshold=?
+2015-04-03 07:50:17.467+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Par Survivor Space (Heap memory): committed=128.00 kB, used=125.52 kB, max=33.25 MB, threshold=?
+2015-04-03 07:50:17.467+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: CMS Old Gen (Heap memory): committed=126.75 MB, used=48.56 MB, max=1.68 GB, threshold=0.00 B
+2015-04-03 07:50:17.467+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-04-03 07:50:17.468+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Mac OS X; version: 10.10.2; arch: x86_64; cpus: 4
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max number of file descriptors: 10240
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Number of open file descriptors: 89
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 36010@Brians-MacBook-Air.local
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Europe/Stockholm
+2015-04-03 07:50:17.469+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-04-03 07:50:17.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2015-04-03 07:50:17.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-04-03 07:50:17.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 25.11-b03
+2015-04-03 07:50:17.470+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2015-04-03 07:50:17.471+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: [-XX:+DisableExplicitGC, -Dorg.neo4j.server.properties=conf/neo4j-server.properties, -Djava.util.logging.config.file=conf/logging.properties, -Dlog4j.configuration=file:conf/log4j.properties, -XX:+UseConcMarkSweepGC, -XX:+CMSClassUnloadingEnabled, -XX:-OmitStackTraceInFastThrow, -XX:hashCode=5, -Dneo4j.ext.udc.source=tarball, -Dneo4j.home=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dneo4j.instance=/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db, -Dfile.encoding=UTF-8]
+2015-04-03 07:50:17.471+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-04-03 07:50:17.472+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-jaxrs-1.9.13.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-1.9-2.0.4.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/bcprov-jdk16-140.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-jmx-2.2.0.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/dnsns.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-2.2.0.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rhino-1.7R4.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/resources.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/charsets.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/scala-library-2.10.4.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-servlet-9.2.4.v20141103.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-lang-2.6.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-http-9.2.4.v20141103.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/rt.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/server-api-2.2.0.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-io-9.2.4.v20141103.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-scala_2.10-1.1.6.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/slf4j-api-1.7.7.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-beanutils-1.8.3.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-udc-2.2.0.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-multipart-1.18.1.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-browser-2.2.0.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jce.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/nashorn.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3daudio.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dutils.jar
+2015-04-03 07:50:17.473+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_codec.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-lucene-index-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-shell-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-logging-1.1.1.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-xml-9.2.4.v20141103.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/classes
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-access-1.1.2.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-io-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.2-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libmlib_jai.jnilib
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunec.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/sunrsasign.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-csv-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/lucene-core-3.6.2.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jfr.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DAudio.jnilib
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jsr311-api-1.1.2.r612.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/scala-reflect-2.10.4.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/jai_core.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/concurrentlinkedhashmap-lru-1.4.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/janino-2.6.1.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-import-tool-2.2.0.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-core-1.1.2.jar
+2015-04-03 07:50:17.474+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-webapp-9.2.4.v20141103.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/vecmath.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/parboiled-core-1.1.6.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3D.jnilib
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-server-1.18.1.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-digester-2.1.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/jfxrt.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-consistency-check-2.2.0.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-primitive-collections-2.2.0.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-compiler-2.6.1.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-server-9.2.4.v20141103.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/rrd4j-2.2.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-core-asl-1.9.13.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/conf/
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/localedata.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-io-2.4.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libAppleScriptEngine.jnilib
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-core-1.18.1.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/dns_sd.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/cldrdata.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/MRJToolkit.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-util-9.2.4.v20141103.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jetty-security-9.2.4.v20141103.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.0-2.0.4.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/mlibwrapper_jai.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-matching-2.2.0.jar
+2015-04-03 07:50:17.475+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/libJ3DUtils.jnilib
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-kernel-2.2.0.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/AppleScriptEngine.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jcl-over-slf4j-1.7.7.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/logback-classic-1.1.2.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jsse.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/mimepull-1.9.3.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/opencsv-2.3.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/usr/lib/java/libjdns_sd.jnilib
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jersey-servlet-1.18.1.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/commons-configuration-1.10.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/jackson-mapper-asl-1.9.13.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext/zipfs.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-cypher-compiler-2.1-2.1.6.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/neo4j-server-2.2.0-static-web.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/system/lib/javax.servlet-api-3.1.0.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath + loader.0] file:/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/lib/neo4j-graph-algo-2.2.0.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [loader.1] file:/System/Library/Java/Extensions/j3dcore.jar
+2015-04-03 07:50:17.476+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/Library/Java/Extensions
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Library/Java/Extensions
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Network/Library/Java/Extensions
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /System/Library/Java/Extensions
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /usr/lib/java
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-03 07:50:17.477+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.server.properties = conf/neo4j-server.properties
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: gopherProxySet = false
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = :
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = US
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.launcher = SUN_STANDARD
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = unknown
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.ext.udc.source = tarball
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: log4j.configuration = file:conf/log4j.properties
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = UTF-8
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = /Users/brian
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Europe/Stockholm
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = UTF-8
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = brian
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.java.command = org.neo4j.server.Bootstrapper
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = en
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.lwawt.macosx.LWCToolkit
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = /
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeBig
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-04-03 07:50:17.478+0000 INFO  [o.n.k.i.DiagnosticsManager]: socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-03 07:50:17.479+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.instance = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-03 07:50:17.479+0000 INFO  [o.n.k.i.DiagnosticsManager]: ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+2015-04-03 07:50:17.479+0000 INFO  [o.n.k.i.DiagnosticsManager]: neo4j.home = /Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db
+2015-04-03 07:50:17.479+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = 
+2015-04-03 07:50:17.479+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-04-03 07:50:17.483+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface awdl0:
+2015-04-03 07:50:17.483+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:6c2e:f0ff:fe57:69bf%awdl0
+2015-04-03 07:50:17.483+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface en0:
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:5ef9:38ff:fe92:8c2c%en0
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.68
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface lo0:
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:0:0:1%lo0
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-04-03 07:50:17.484+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-04-03 07:50:18.096+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 1 on :label[0](property[0]) is ONLINE
+2015-04-03 07:50:18.202+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 3 on :label[0](property[1]) is ONLINE
+2015-04-03 07:50:18.207+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 5 on :label[1](property[2]) is ONLINE
+2015-04-03 07:50:18.215+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 6 on :label[2](property[3]) is ONLINE
+2015-04-03 07:50:18.221+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 8 on :label[4](property[2]) is ONLINE
+2015-04-03 07:50:18.226+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 10 on :label[5](property[2]) is ONLINE
+2015-04-03 07:50:18.235+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 12 on :label[3](property[2]) is ONLINE
+2015-04-03 07:50:18.259+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.init: index 13 on :label[6](property[2]) is ONLINE
+2015-04-03 07:50:18.284+0000 INFO  [o.n.k.NeoStoreDataSource]: Opened logical log [/Users/brian/github/cheerfulstoic/neo4j_summer_olympics/db/data/graph.db/neostore.transaction.db.2] version=2, lastTxId=109 (clean)
+2015-04-03 07:50:18.293+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 1 on :Country(ioc_code) is ONLINE
+2015-04-03 07:50:18.293+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 3 on :Country(iso_code) is ONLINE
+2015-04-03 07:50:18.293+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 5 on :City(name) is ONLINE
+2015-04-03 07:50:18.293+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 6 on :Games(year) is ONLINE
+2015-04-03 07:50:18.294+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 8 on :Sport(name) is ONLINE
+2015-04-03 07:50:18.294+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 10 on :Discipline(name) is ONLINE
+2015-04-03 07:50:18.294+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 12 on :Event(name) is ONLINE
+2015-04-03 07:50:18.294+0000 INFO  [o.n.k.i.a.i.IndexingService]: IndexingService.start: index 13 on :Athlete(name) is ONLINE
+2015-04-03 07:50:18.299+0000 WARN  [o.n.k.i.a.i.s.IndexSamplingController]: Recovering index sampling for index :City(name)
+2015-04-03 07:50:18.309+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob]: Sampled index :City(name) with 0 unique values in sample of avg size 0 taken from index containing 0 entries
+2015-04-03 07:50:19.241+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-04-03 07:50:19.241+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId{creationTime=1427992062443, randomId=9156017451299455050, storeVersion=14969031248344582, upgradeTime=1427992062443, upgradeId=1}
+2015-04-03 07:50:19.241+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0
+2015-04-03 07:50:19.241+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2015-04-03 07:50:19.249+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 1.9 (neo4j-cypher-compiler-1.9), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Consistency Checker (neo4j-consistency-check), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.2 (neo4j-cypher-compiler-2.2), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Import Command Line Tool (neo4j-import-tool), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server API (server-api), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel (neo4j-kernel), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.1 (neo4j-cypher-compiler-2.1), version: 2.1.6; revision: 2.1.6:2.1-maint:605/0d7f25fc608f15c54ec1a01f4ba4564ebfb1071a
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Generic shell (neo4j-shell), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neo4j-udc, version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Lucene Index (neo4j-lucene-index), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Server (neo4j-server), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher Compiler 2.0 (neo4j-cypher-compiler-2.0), version: 2.0.4; revision: 2.0.4:2.0-maint:130/4a7d10bc274a5d26a180bbe9df25100e8a694748
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Matching (neo4j-graph-matching), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - JMX support (neo4j-jmx), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Cypher (neo4j-cypher), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Algorithms (neo4j-graph-algo), version: 2.2.0; revision: 2.2.0:master:839/5b872e0e68ed041822003b69052c04a50125e471
+2015-04-03 07:50:19.250+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore v0.A.5
+2015-04-03 07:50:19.252+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]:   SchemaStore: used=15 high=14
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=62740 high=230212
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=85569 high=256846
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=5 high=4
+2015-04-03 07:50:19.253+0000 INFO  [o.n.k.i.DiagnosticsManager]:   LabelTokenStore: used=8 high=7
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=50834 high=50833
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=7 high=6
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=115 high=114
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipGroupStore: used=323 high=322
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-04-03 07:50:19.254+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-04-03 07:50:19.255+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 249804886016 / 19978113024 / 7
+Storage files: (filename : modification date - size)
+2015-04-03 07:50:19.256+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2015-04-03 07:50:19.256+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2015-04-03T09:50:17+0200 - 0.00 B
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2015-04-03T09:50:19+0200 - 158.68 kB
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2015-04-03T09:50:17+0200 - 99.00 B
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.counts.db.a: 2015-04-03T09:50:11+0200 - 1.55 kB
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.counts.db.b: 2015-04-02T18:39:54+0200 - 786.00 B
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.257+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db: 2015-04-03T09:50:17+0200 - 40.00 B
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names: 2015-04-03T09:50:17+0200 - 342.00 B
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.labeltokenstore.db.names.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2015-04-03T09:50:17+0200 - 3.29 MB
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2015-04-03T09:50:17+0200 - 1.29 MB
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels: 2015-04-03T09:50:17+0200 - 68.00 B
+2015-04-03 07:50:19.258+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.labels.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2015-04-03T09:50:17+0200 - 1.99 MB
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2015-04-03T09:50:17+0200 - 128.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2015-04-03T09:50:17+0200 - 63.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.259+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2015-04-03T09:50:17+0200 - 304.00 B
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2015-04-03T09:50:17+0200 - 14.38 kB
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db: 2015-04-03T09:50:17+0200 - 7.89 kB
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipgroupstore.db.id: 2015-04-03T09:50:17+0200 - 57.00 B
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2015-04-03T09:50:17+0200 - 8.33 MB
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2015-04-03T09:50:17+0200 - 1.31 MB
+2015-04-03 07:50:19.260+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2015-04-03T09:50:17+0200 - 25.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2015-04-03T09:50:17+0200 - 228.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db: 2015-04-03T09:50:17+0200 - 960.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.schemastore.db.id: 2015-04-03T09:50:17+0200 - 9.00 B
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.0: 2015-04-02T18:35:07+0200 - 634.34 kB
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.1: 2015-04-02T18:55:15+0200 - 77.83 MB
+2015-04-03 07:50:19.261+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.transaction.db.2: 2015-04-03T09:50:18+0200 - 16.00 B
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:   rrd: 2015-04-03T09:50:11+0200 - 1.93 MB
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:   schema:
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:     index:
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:         1:
+2015-04-03 07:50:19.262+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _8.cfs: 2015-04-02T18:54:40+0200 - 7.45 kB
+2015-04-03 07:50:19.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-03 07:50:19.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_3: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.263+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 23.72 kB
+2015-04-03 07:50:19.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:         10:
+2015-04-03 07:50:19.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _6.cfs: 2015-04-02T18:54:43+0200 - 2.51 kB
+2015-04-03 07:50:19.264+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:41:39+0200 - 16.00 kB
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 18.78 kB
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:         12:
+2015-04-03 07:50:19.265+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _9.cfs: 2015-04-02T18:54:46+0200 - 54.03 kB
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:41:39+0200 - 16.00 kB
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-03T09:50:11+0200 - 295.00 B
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 70.33 kB
+2015-04-03 07:50:19.266+0000 INFO  [o.n.k.i.DiagnosticsManager]:         13:
+2015-04-03 07:50:19.267+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _5.cfs: 2015-04-02T18:54:47+0200 - 1.01 MB
+2015-04-03 07:50:19.267+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:41:39+0200 - 16.00 kB
+2015-04-03 07:50:19.267+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.268+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 1.03 MB
+2015-04-03 07:50:19.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:         3:
+2015-04-03 07:50:19.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _8.cfs: 2015-04-02T18:54:40+0200 - 7.30 kB
+2015-04-03 07:50:19.269+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_3: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 23.57 kB
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:         5:
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:27:52+0200 - 16.00 kB
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-02T18:27:52+0200 - 20.00 B
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_1: 2015-04-02T18:27:52+0200 - 46.00 B
+2015-04-03 07:50:19.270+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 16.06 kB
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:         6:
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _7.cfs: 2015-04-02T18:54:41+0200 - 1.26 kB
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:41:38+0200 - 16.00 kB
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.271+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 17.53 kB
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:         8:
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:           _7.cfs: 2015-04-02T18:54:41+0200 - 1.92 kB
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:           failure-message: 2015-04-02T18:41:39+0200 - 16.00 kB
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:           segments_2: 2015-04-03T09:50:11+0200 - 258.00 B
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:           write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.272+0000 INFO  [o.n.k.i.DiagnosticsManager]:         - Total: 2015-04-03T09:50:18+0200 - 18.19 kB
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-04-02T18:41:39+0200 - 1.21 MB
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-04-02T18:27:52+0200 - 1.21 MB
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:     label:
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:       lucene:
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:         _2q.cfs: 2015-04-02T18:55:15+0200 - 50.95 kB
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments.gen: 2015-04-03T09:50:11+0200 - 20.00 B
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:         segments_2: 2015-04-03T09:50:11+0200 - 282.00 B
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:         write.lock: 2015-04-03T09:50:18+0200 - 0.00 B
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:       - Total: 2015-04-03T09:50:18+0200 - 51.25 kB
+2015-04-03 07:50:19.273+0000 INFO  [o.n.k.i.DiagnosticsManager]:     - Total: 2015-04-02T18:27:43+0200 - 51.25 kB
+2015-04-03 07:50:19.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-04-02T18:27:52+0200 - 1.26 MB
+2015-04-03 07:50:19.274+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2015-04-02T18:27:42+0200 - 0.00 B
+2015-04-03 07:50:19.274+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-04-03 07:50:19.342+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Database is now ready
+2015-04-03 07:50:19.342+0000 INFO  [o.n.s.d.LifecycleManagingDatabase]: Successfully started database
+2015-04-03 07:50:19.353+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED START ---
+2015-04-03 07:50:19.473+0000 INFO  [o.n.s.CommunityNeoServer]: Starting HTTP on port :1896 with 4 threads available
+2015-04-03 07:50:19.816+0000 INFO  [o.n.s.CommunityNeoServer]: Enabling HTTPS on port :1895
+2015-04-03 07:50:20.146+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/webadmin] from [webadmin-html]
+2015-04-03 07:50:20.202+0000 INFO  [o.n.s.w.Jetty9WebServer]: Mounting static content at [/browser] from [browser]
+2015-04-03 07:50:21.539+0000 INFO  [o.n.s.CommunityNeoServer]: Server started on: http://localhost:1896/
+2015-04-03 07:50:21.539+0000 INFO  [o.n.s.CommunityNeoServer]: Remote interface ready and available at [http://localhost:1896/]
+2015-04-03 07:50:21.539+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- SERVER STARTED END ---
+2015-04-03 11:36:44.742+0000 WARN  [o.n.k.EmbeddedGraphDatabase]: GC Monitor: Application threads blocked for 10790127ms.
